@@ -4,30 +4,30 @@ const AppPreview = () => {
       <picture className="self-end">
         <source
           media="(min-width: 1440px)"
-          srcSet="../assets/images/auth/phone_desk@1x.webp 1x,
-            ../assets/images/auth/phone_desk@2x.webp 2x"
+          srcSet="src/assets/images/auth/phone_desk@1x.webp 1x,
+            src/assets/images/auth/phone_desk@2x.webp 2x"
           type="image/webp"
         />
         <source
           media="(min-width: 1440px)"
-          srcSet="../assets/images/auth/phone_desk@1x.png 1x,
-            ../assets/images/auth/phone_desk@2x.png 2x"
+          srcSet="src/assets/images/auth/phone_desk@1x.png 1x,
+            src/assets/images/auth/phone_desk@2x.png 2x"
           type="image/png"
         />
         <source
           sizes="(max-width: 767px)"
-          srcSet="../assets/images/auth/phone_mob@1x.webp 1x,
-            ../assets/images/auth/phone_mob@2x.webp 2x"
+          srcSet="src/assets/images/auth/phone_mob@1x.webp 1x,
+            src/assets/images/auth/phone_mob@2x.webp 2x"
           type="image/webp"
         />
         <source
           sizes="(max-width: 767px)"
-          srcSet="../assets/images/auth/phone_mob@1x.png 1x,
-            ../assets/images/auth/phone_mob@2x.png 2x"
+          srcSet="src/assets/images/auth/phone_mob@1x.png 1x,
+            src/assets/images/auth/phone_mob@2x.png 2x"
           type="image/png"
         />
         <img
-          src="../assets/images/auth/phone_desk@1x.png"
+          src="src/assets/images/auth/phone_desk@1x.png"
           alt="App Preview"
           loading="lazy"
           className="mx-auto"
