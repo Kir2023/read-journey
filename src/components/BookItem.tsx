@@ -59,9 +59,9 @@ const BookItem = ({
           }
         />
       ) : (
-        <div className="w-full h-[207px] bg-dark-grey rounded-8 mb-[8px] flex items-center justify-center cursor-pointer">
+        <div className="w-full h-[207px] bg-white rounded-8 mb-[8px] flex items-center justify-center cursor-pointer">
           <img
-            src="/images/book.png"
+            src="./images/book.webp"
             className={"w-[137px] h-[90px]"}
             onClick={() =>
               handleModal &&
