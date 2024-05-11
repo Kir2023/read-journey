@@ -14,7 +14,7 @@ interface KeyboardEvent {
   code: string;
 }
 
-const modalRoot = document.getElementById("modal-root") as HTMLElement;
+const modalRoot = document.getElementById("modal") as HTMLElement;
 
 const Modal = ({ handleModal, children, className }: ModalProps) => {
   useEffect(() => {
