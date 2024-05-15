@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+Веб застосунок для ведення власної бібліотеки
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+                                        КОРОТКИЙ ОПИС
+Застосунок складається з 5-и сторінок:
 
-Currently, two official plugins are available:
+- реєстрація. Потрібно ввести свою електронну пошту, ім'я, а також придумати пароль, який складатиметься мінімум з 7 символів.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- логін. Зареєстровані користувачі зможуть зайти до свого акаунту, використавши пошту та пароль.
 
-## Expanding the ESLint configuration
+- домашня сторінка. Виконує функцію з привітання відвідувачів застосунку. Тут можна побачити список рекомендованих книг, а також додати свої книги.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- моя бібліотека. Ця сторінка складається з книг, які користувач додав до власної бібліотеки.
 
-- Configure the top-level `parserOptions` property like this:
+- рідінг. Ця сторінка дозволяє відслідковувати прогрес читання, стежити за статистикою, а також дивитися графік прочитаних сторінок.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+                                        ВИКОРИСТАНІ ТЕХНОЛОГІЇ
+HTML/CSS
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+TypeScript
+
+React.js
+
+                                      ТЕХНІЧНЕ ЗАВДАННЯ ФРОНТЕНД
+https://docs.google.com/spreadsheets/d/1_f4IZzXDs6QhQq3mOCOMktYasPW1XphdTO82rdrkyW8/edit?pli=1#gid=1060862504
+
+                                      ТЕХНІЧНЕ ЗАВДАННЯ БЕКЕНД
+https://readjourney.b.goit.study/api-docs/
+
+                                        МАКЕТ
+https://www.figma.com/design/z3m0rdBcEfLTJUBDkAKhWQ/ReadJourney?node-id=18743-4973
